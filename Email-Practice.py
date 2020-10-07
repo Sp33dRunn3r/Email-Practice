@@ -4,8 +4,8 @@ from email.message import EmailMessage
 from string import Template
 
 email = EmailMessage()
-email['from'] = 'Maxwell Hollins'
-email['to'] = 'cmaxwellhollins@gmail.com'
+email['from'] = 'First Last'
+email['to'] = 'Example_email@gmail.com'
 email['subject'] = 'You won... a decent career!!!'
 
 email.set_content('I am a Python Master!')
